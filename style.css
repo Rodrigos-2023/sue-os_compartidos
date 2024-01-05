@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{ 
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.titulo{
+    margin: 0;
+    color: rgba(10, 10, 118, 0.827);
+}
+
+.logo {
+    width: 80px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    grid-gap: 50px;
+}
+
+.menu li{
+    font-family:'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;    
+}
+
+.menu-link a {
+    text-decoration: none;
+}
+
+.menu-link.active a {
+    text-decoration: underline double;
+}
+
+.imagen2{
+    width: 200px;
+   
+}
+
+
+.carousel-inner{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(4, 52, 82);
+    gap: 80px;
+    ;
+}
+
+.carousel-item{
+    width: 600px;
+}
+
+.carousel-control-prev{
+    align-items: center;   
+}
+
+.carousel-control-next{
+    align-items: center;
+}
+
+
+.form{
+    display:grid;
+    justify-content: space-around;
+    padding: 2rem;
+  
+}
+
+ .redes {
+   display: inline;
+   margin-left: 1rem;
+ 
+ }
+ .direcel{
+    display: flex;
+    justify-content: center;
+    margin-inline-end: 2rem;
+ }

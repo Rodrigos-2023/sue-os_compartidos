@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sueños Compartidos</title>
+    <title>Sueños Compartidos</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-    <nav class="nav">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
 
-        <img src="./pages/Logo.jpg.jpeg" alt="Logo sueños"class="logo">
-    
-        <ul class="menu">
-            <li class="menu-link">
-                <a href="./index.html">Inicio</a>
-            </li>
-        </ul>
-    </nav>
-    
+            <img src="./pages/Logo.jpg.jpeg" alt="logo" class="logo">
+
+            <a class="menu-link active" href="./index.html">INICIO</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </div>
+          </div>
+        </nav>
+          
+      </header>
+    <main>
     <h1>Videos</h1>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis natus deleniti porro? Quibusdam debitis architecto ullam neque eveniet cupiditate, veniam saepe mollitia est delectus aut aliquam vero molestiae repellat minus.
     <p>Videos compartidos en nuestras redes sociales</p>
@@ -27,17 +35,27 @@
     
 <br>
 <br>
-
-    <footer class="PIE">
-        <p>Direccion: Malabia 1390</p>
-        <p>Celular: 381-4960801 / 381-6317838</p>
-        <a href="https://www.instagram.com/suecompartidos.22/" target="_blank">Instagram</a>
+    </main>
+<footer class="PIE">
+    <div>
+      <i class="bi bi-instagram"></i>
+          <a href="https://www.instagram.com/suecompartidos.22/" target="_blank" class="redes">Instagram</a>
         <br>
-        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-<br>
-<br>
-
-        <img src="./contacto/codigodewhatsapp.jpeg"width="100" height="100">
-    </footer>
+      <i class="bi bi-facebook"></i>
+          <a href="https://www.facebook.com/profile.php?id=100087570586845" target="_blank" class="redes">Facebook</a>
+        <br>
+      <i class="bi bi-tiktok"></i>
+          <a href="https://www.tiktok.com/@sueoscompartidos?_t=8iLUag03Vn3&_r=1" target="_blank" class="redes">Tiktok</a>
+        <br>
+      
+      <i class="bi bi-whatsapp"></i> <a href="https://wa.me/qr/IAYBHY4I6JHJI1" target="_blank" class="redes">381-4960801</a>
+        
+    </div>
+    <div class="direcel">
+      <i class="bi bi-geo-alt"></i>
+       <p >Direccion: Calle  Malabia  Nº 1390,  Alt.  Av.  Alem Nº 1700, CEL 381-4960801 / 381-6317838</p> 
+      </div>
+      
+  </footer>
 </body>
 </html>

@@ -1,69 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 
 *{ 
-    margin: 1;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .header{
     position: sticky;
     top: 0;
-}
-
-.nav {
-    background-color: aliceblue;
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-
-.titulo{
     margin: 0;
-    color: rgba(10, 10, 118, 0.827);
+    color: rgb(46, 16, 196);
+    font-size: 1rem;
 }
 
-.logo {
-    width: 80px;
-}
-
-.menu {
+.container-fluid{
     list-style-type: none;
-    display: flex;
-    gap: 50px;
-    grid-gap: 50px;
-}
-
-.menu li{
+    grid-gap: 80px;
     font-family:'Nunito', sans-serif;
     font-weight: 900;
     font-size: 1.5rem;    
 }
-
-.menu-link a {
-    text-decoration: none;
+.main{
+    padding: 1rem;
 }
 
-.menu-link.active a {
-    text-decoration: underline double;
+.titulo{
+    color: rgba(11, 64, 221, 0.856);
 }
 
-.imagen2{
-    width: 200px;
-   
+.logo {
+    width: 100px;
 }
-
 
 .carousel-inner{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(4, 52, 82);
+    background-color: rgb(41, 125, 178);
     gap: 80px;
-    ;
 }
 
 .carousel-item{
-    width: 600px;
+    width: 700px;
 }
 
 .carousel-control-prev{
@@ -74,12 +51,10 @@
     align-items: center;
 }
 
-
 .form{
     display:grid;
     justify-content: space-around;
     padding: 2rem;
-  
 }
 
  .redes {
@@ -90,5 +65,10 @@
  .direcel{
     display: flex;
     justify-content: center;
-    margin-inline-end: 2rem;
+   
  }
+.redes-titulo{
+    padding: 1.5rem;  
+    margin-top: 1rem;
+}
+

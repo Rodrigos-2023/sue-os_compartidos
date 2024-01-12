@@ -5,70 +5,121 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header{
-    position: sticky;
-    top: 0;
-    margin: 0;
-    color: rgb(46, 16, 196);
-    font-size: 1rem;
-}
-
-.container-fluid{
-    list-style-type: none;
-    grid-gap: 80px;
-    font-family:'Nunito', sans-serif;
-    font-weight: 900;
-    font-size: 1.5rem;    
-}
-.main{
-    padding: 1rem;
-}
-
-.titulo{
-    color: rgba(11, 64, 221, 0.856);
-}
-
 .logo {
     width: 100px;
 }
 
+.body{
+    background-color: rgb(209, 223, 223);
+}
+
+.header{
+    margin-top:  0;
+    padding: 0;
+    background-color: rgb(244, 248, 249);
+   
+}
+
+.redes-titulo{    
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid; 
+    margin: 2px;  
+}
+
+.redes{
+    margin: 5px;
+}
+.redes-insta{
+    margin: 5px;
+    color: rgba(243, 28, 0, 0.903);
+}
+.redes-tik{
+    margin: 5px;
+    color: black;
+}
+.redes-what{
+    margin: 5px;
+    color: rgb(2, 170, 10);
+}
+.container-fluid{
+    list-style-type: none;
+    font-family:'Nunito', sans-serif;
+    font-weight: 800;  
+    background-color: rgba(15, 194, 225, 0.425);  
+    border: 2px solid rgb(2, 3, 85);
+    margin: 2px;
+}
+
+.imgp{
+    width: 200px;
+    padding: 2rem;
+    margin-top: 0;    
+}
+.titulo{
+    color: rgb(14, 63, 212);
+}
 .carousel-inner{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(41, 125, 178);
-    gap: 80px;
+    background-color: rgb(240, 250, 56);
+    margin-top: 0;
 }
-
 .carousel-item{
-    width: 700px;
+    width: 400px;
 }
-
-.carousel-control-prev{
-    align-items: center;   
-}
-
-.carousel-control-next{
-    align-items: center;
-}
-
 .form{
-    display:grid;
-    justify-content: space-around;
-    padding: 2rem;
+    padding: 1rem;
+    margin-top: 0;
+}
+.formulario{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(14, 63, 212);
 }
 
- .redes {
-   display: inline;
-   margin-left: 1rem;
- 
- }
+.redesiconos{
+    margin: 1rem;
+}
+
  .direcel{
     display: flex;
     justify-content: center;
+    margin: 1rem;
+}
    
- }
-.redes-titulo{
-    padding: 1.5rem;  
-    margin-top: 1rem;
+
+
+
+
+
+
+.h1img{
+    text-align: center;
+    padding: 1px;
+    text-decoration:underline
 }
 
+.textoimg{
+    padding: 5px;
+    margin: 5px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 2px solid red;
+    padding: 1rem;
+  
+  
+}
+.caja{
+    border: 2px solid black;
+    align-items: center;
+    align-content: center;
+    padding: 2px;
+    margin: 5px;
+}

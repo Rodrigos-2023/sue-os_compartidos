@@ -108,14 +108,19 @@
 }
 
 .contenedor{
+    border: 3px solid blueviolet;
+    margin: 3px;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    border: 2px solid red;
-    padding: 1rem;
-  
-  
+    grid-template-areas: 
+        "caja1 caja2 caja3 caja4 caja5"
+        "caja6 caja7 caja8 caja9 caja10"
+        "caja11 caja12 caja13 caja14 caja15";
 }
+
+    
 .caja{
     border: 2px solid black;
     align-items: center;
@@ -123,3 +128,76 @@
     padding: 2px;
     margin: 5px;
 }
+@media screen and (max-width: 1000px) {
+    .contenedor{
+        height: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "caja1 caja2 caja3 caja4"
+        "caja5 caja6 caja7 caja8"
+        "caja9 caja10 caja11 caja12"
+        "caja13 caja14 caja15 caja16"
+        "caja17 caja18 caja19 caja20";
+    }
+} 
+@media screen and (max-width: 780px) {
+    .contenedor{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "caja1 caja2 caja3"
+        "caja4 caja5 caja6"
+        "caja7 caja8 caja9"
+        "caja10 caja11 caja12"
+        "caja13 caja14 caja15"
+        "caja16 caja17 caja18";
+    }
+} 
+
+@media screen and (max-width: 550px) {
+    .contenedor{
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(10, 1fr );
+        grid-template-areas: 
+        "caja1 caja2"
+        "caja3 caja4" 
+        "caja5 caja6 "
+        "caja7 caja8" 
+        "caja9 caja10" 
+        "caja11 caja12 " 
+        "caja13 caja14" 
+        "caja15 caja16"
+        "caja17 caja18"
+        "caja19 caja20";
+    }
+} 
+@media screen and (max-width: 380px) {
+    .contenedor{
+        height: auto;
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(20, 1fr );
+        grid-template-areas: 
+        "caja1" 
+        "caja2"
+        "caja3"
+        "caja4" 
+        "caja5" 
+        "caja6"
+        "caja7"
+        "caja8" 
+        "caja9" 
+        "caja10" 
+        "caja11"
+        "caja12" 
+        "caja13"
+        "caja14" 
+        "caja15" 
+        "caja16"
+        "caja17"
+        "caja18"
+        "caja19"
+        "caja20";
+    }
+} 
